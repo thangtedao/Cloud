@@ -1,18 +1,21 @@
 # Shoe-Shop
 **HOW TO RUN PROJECT?**
 
+To get started, clone the project repository using the following command:
 
-**Mở terminal**
+    git clone https://github.com/Vy19110142/Shoe-Shop.git
 
-**Truy cập thư mục shoe-shop**
+**1. Mở terminal**
+
+**2. Truy cập thư mục shoe-shop**
 
     cd shoe-shop
 
-**Chuyển file '.evn' vào thư mục "SERVER"**
+**3. Chuyển file '.evn' vào thư mục "SERVER"**
 
     mv .env server
 
-**Cài đặt và chạy server:**
+**4. Cài đặt và chạy server:**
 
 - Truy cập thư mục  SERVER
 
@@ -26,7 +29,7 @@
 
       npm start
 
-**Cài đặt và chạy client:**
+**5. Cài đặt và chạy client:**
 
 - Truy cập thư mục CLIENT
 
@@ -40,7 +43,7 @@
 
       npm start
 
-**Cài đặt và chạy Admin dashboard:**
+**6. Cài đặt và chạy Admin dashboard:**
 
 - Truy cập thư mục DASHBOARD-AMIN
 
