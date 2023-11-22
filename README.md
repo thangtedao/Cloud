@@ -1,19 +1,18 @@
 # Shoe-Shop
 **HOW TO RUN PROJECT?**
 
-**First**
 
-Mở terminal
+**Mở terminal**
 
-Truy cập thư mục shoe-shop
+**Truy cập thư mục shoe-shop**
 
     cd shoe-shop
 
-Chuyển file '.evn' vào thư mục "SERVER"
+**Chuyển file '.evn' vào thư mục "SERVER"**
 
     mv .env server
 
-Cài đặt và chạy server:
+**Cài đặt và chạy server:**
 
 - Truy cập thư mục  SERVER
 
@@ -27,7 +26,7 @@ Cài đặt và chạy server:
 
       npm start
 
-Cài đặt và chạy client:
+**Cài đặt và chạy client:**
 
 - Truy cập thư mục CLIENT
 
@@ -41,7 +40,7 @@ Cài đặt và chạy client:
 
       npm start
 
-Cài đặt và chạy Admin dashboard:
+**Cài đặt và chạy Admin dashboard:**
 
 - Truy cập thư mục DASHBOARD-AMIN
 
