@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-app.use(express.static(path.resolve(__dirname, "./public/build")));
+app.use(express.static(path.resolve(__dirname, "../CLIENT/build")));
 
 // API
 app.use("/api/import", ImportData);
@@ -31,7 +31,7 @@ app.get("/api/config/paypal", (req, res) => {
 });
 
 app.get("/*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "./public/build", "index.html"));
+  res.sendFile(path.resolve(__dirname, "../CLIENT/build", "index.html"));
 });
 
 // ERROR HANDLER
